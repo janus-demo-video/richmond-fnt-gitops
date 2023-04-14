@@ -1,0 +1,15 @@
+app:
+  name: richmond-fnt
+  namespace: richmond-fnt-dev
+  cluster: .apps.cluster-btx9f.btx9f.sandbox3111.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/richmond-fnt
+  org: janus-demo-video
+  name: richmond-fnt
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: richmond-fnt-dev/richmond-fnt
+  tag: latest
